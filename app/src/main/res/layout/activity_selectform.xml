@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".selectform">
+
+
+
+        <ImageView
+            android:id="@+id/img_secondPage"
+            android:layout_width="390dp"
+            android:layout_height="326dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.079"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+    <Spinner
+        android:id="@+id/dd_selectMensa"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:autofillHints="Select Mensa"
+        android:entries="@array/mensa_array"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/img_secondPage"
+        app:layout_constraintVertical_bias="0.276"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/dd_selectDish"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:entries="@array/dishe_array"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dd_selectMensa"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            android:onClick="writeReview"
+            app:layout_constraintTop_toBottomOf="@+id/dd_selectDish"
+            app:layout_constraintVertical_bias="0.721" />
+    </androidx.constraintlayout.widget.ConstraintLayout>

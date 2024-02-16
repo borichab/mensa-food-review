@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mensa Food Review</string>
+    <string name="sing_up_to_continue">Sing Up to Continue</string>
+    <string-array name="mensa_array">
+        <item name="0">Schmalkalden Mensa</item>
+        <item name="1">Erfurt Mensa</item>
+        <item name="2">Illmenau Mensa</item>
+        <item name="3">Jena Mensa</item>
+    </string-array>
+
+    <string-array name="dishe_array">
+        <item name="0">Maultaschen</item>
+        <item name="1">Sausages</item>
+        <item name="2">Schnitzel</item>
+        <item name="3">Bratwurst (Grilled Sausage)</item>
+        <item name="4">Brezeln (Pretzel)</item>
+        <item name="7">Labskaus</item>
+    </string-array>
+</resources>
