@@ -8,7 +8,6 @@
 5. [File & Folder Structure](#file--folder-structure)
 6. [Resources](#resources)
 7. [Contributors](#contributors)
-8. [License](#license)
 
 ## Project Overview
 The **Mensa Food Review App** is an Android application designed to allow users to submit and view food reviews at different Mensas (cafeterias). Users can add photos and rate their dining experiences, providing a platform where students and individuals can share their food experiences.
@@ -53,6 +52,3 @@ To install and run the Mensa Food Review App on your Android device:
 
 ## Contributors
 - **Boricha Bhartkumar** - [Mail](mailto:bhartpboricha@gmail.com)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
