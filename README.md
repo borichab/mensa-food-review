@@ -12,6 +12,12 @@
 ## Project Overview
 The **Mensa Food Review App** is an Android application designed to allow users to submit and view food reviews at different Mensas (cafeterias). Users can add photos and rate their dining experiences, providing a platform where students and individuals can share their food experiences.
 
+### Tech Stack
+- **Platform**: Android (Java)
+- **Database**: Firebase Realtime DB
+- **Storage**: Firebase Storage
+- **Tools**: Git, Android Studio
+
 ## Features
 - **Splash Screen**: The app starts with a splash screen displaying the logo and tagline.
 - **Write and View Reviews**: The main activity allows users to write a new review or view existing ones.
@@ -51,4 +57,6 @@ To install and run the Mensa Food Review App on your Android device:
 - **Firebase Documentation**: [Firebase Console](https://console.firebase.google.com)
 
 ## Contributors
-- **Boricha Bhartkumar** - [Mail](mailto:bhartpboricha@gmail.com)
+- **Boricha Bhartkumar**
+- 📧 Contact: bhartpboricha@gmail.com
+
